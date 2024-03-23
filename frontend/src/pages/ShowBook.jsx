@@ -14,6 +14,7 @@ const ShowBook = () => {
         setLoading(true);
         axios.get(`http://localhost:5555/books/${id}`)
         .then((response)=> {
+            console.log(response.data)
             setBook(response.data);
             setLoading(false)
         })

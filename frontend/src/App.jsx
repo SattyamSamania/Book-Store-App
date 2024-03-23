@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-    <div className="bg-red-800 text-white wi-full">App</div>
     <Routes>
 <Route path="/" element={<Home />}  />
 <Route path="/books/create" element={<CreateBooks />}  />
